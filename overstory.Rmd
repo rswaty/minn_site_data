@@ -1,0 +1,89 @@
+---
+title: "Overstory Tree Data Exploration"
+author: "Randy Swaty"
+date: "2023-03-22"
+output: html_document
+---
+
+
+## The basics
+
+
+
+```{r set up, message=FALSE, warning=FALSE, include=FALSE}
+
+# load packages
+
+library(crosstalk)
+library(ggsci)
+library(plotly)
+library(scales)
+library(tidyverse)
+
+
+# read in data, round numbers to whole numbers
+overstory_data <- read_csv("data/overstory.csv") %>%
+  mutate(ave_basal_area_whole = round(ave_basal_area, 0)) %>%
+  group_by(sitename) %>%
+  mutate(sitename = fct(rev(sitename)))
+  
+  
+```
+
+```{r grouped  by species, echo=FALSE, message=FALSE, warning=FALSE}
+
+grouped_species <- overstory_data %>%
+  group_by(species_trees)%>%
+  summarise(mean_basal_area = mean(ave_basal_area_whole))
+
+grouped_species_chart  <- 
+  ggplot(data = grouped_species, aes(x = species_trees, y = mean_basal_area)) +
+  geom_bar(stat = "identity", fill = "purple") +
+  labs(
+    title = "Mean Basal Area by Species across all sites",
+    x = "",
+    y = "Basal Area") +
+  scale_x_discrete(limits = rev(grouped_species$species_trees)) +
+  coord_flip() +
+  theme_bw()
+
+grouped_species_chart
+```
+
+
+## Overstory basal area per site
+
+```{r clickable species by site, echo=FALSE, message=FALSE, warning=FALSE}
+
+# set up key for crosstalk
+
+sd_overstory_data <- highlight_key(overstory_data)
+
+
+
+basal_area_chart <- 
+  ggplot(sd_overstory_data, aes(x = species_trees,
+                                 y = ave_basal_area_whole)) +
+  geom_point(size = 3,
+             colour = "#4c0185") +
+  labs(
+    title = "Average Basal Area per Species",
+    x = "",
+    y = "Basal Area") +
+  scale_y_continuous(labels = comma) +
+  theme_bw()
+
+bscols(widths = c(3, 10),
+       filter_select("BP", 
+                     "Select site", 
+                     sd_overstory_data, 
+                     ~ sitename,
+                     multiple = FALSE),
+       ggplotly(basal_area_chart,
+                tooltip = FALSE,
+                width = 815)
+)
+
+
+```
+

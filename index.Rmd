@@ -1,0 +1,22 @@
+---
+title: "Tree data exploration for sites of northern Minnesota"
+author: "Randy Swaty"
+date: "2023-03-22"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## The basics
+
+There is a need to explore basic tree demographic data for TNC's restoration sites in northern Minnesota.  Based of the dataset [CLEAN_data_Fall2022_from_NM.xlsx](data/CLEAN_data_Fall2022_from_NM.xlsx) I:
+
+1. Used pivot tables to generate clean [overstory](data/overstory.csv) and understory datasets
+2. Made some basic data exploration charts
+
+## Future hopes
+
+1. Have clickable map
+2. Explore treatment impacts on  basal area and # understory dbh

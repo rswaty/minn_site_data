@@ -1,0 +1,16 @@
+name: Northern Minnesota Tree Data Exploration
+navbar:
+  title: HOME
+  left:
+  - text: Overstory
+    href: overstory.html
+
+    
+output_dir: '.'
+output:
+  html_document:
+    theme: yeti
+    highlight: textmate
+    lib_dir: site_libs
+    self_contained: no
+
