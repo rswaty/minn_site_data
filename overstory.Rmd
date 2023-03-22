@@ -87,3 +87,50 @@ bscols(widths = c(3, 10),
 
 ```
 
+
+
+## Looking across all of the sites
+
+
+```{r all sites, echo=FALSE, message=FALSE, warning=FALSE, fig.height=12}
+plot <-
+  ggplot(overstory_data, aes(fill = species_trees, y = ave_basal_area_whole, x = sitename)) +
+  geom_bar(position = "stack", stat = "identity") +
+  coord_flip() +
+  labs(
+    title = "Conversion status of our 402 ecosystems",
+    subtitle = "Conversion status of our 402 ecosystems",
+    caption = "Data from landfire.gov.",
+    x = "",
+    y = "Acres",
+    fill = "Status")+
+  scale_x_discrete(limits=rev) +
+  scale_y_continuous(label=comma) + 
+  theme_bw() + 
+  scale_fill_manual(values = c(
+                              "dodgerblue2", 
+                              "#E31A1C", 
+                              "#0b4222",
+                              "#6A3D9A", # purple
+                              "#FF7F00", # orange
+                              "#ab520e", 
+                              "black",
+                              "skyblue2", 
+                              "#FB9A99", # lt pink
+                              "palegreen2",
+                              "#CAB2D6", # lt purple
+                              "#FDBF6F", # lt orange
+                              "gray70", 
+                              "khaki2",
+                              "maroon", 
+                              "orchid1", 
+                              "deeppink1", 
+                              "#ebf06e"))+
+  theme(plot.caption = element_text(hjust = 0, face= "italic"), #Default is hjust=1
+        plot.title.position = "plot", #NEW parameter. Apply for subtitle too.
+        plot.caption.position =  "plot") 
+
+plot
+
+```
+
