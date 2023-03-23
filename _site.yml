@@ -4,6 +4,8 @@ navbar:
   left:
   - text: Overstory
     href: overstory.html
+  - text: Understory
+    href: understory.html
 
     
 output_dir: '.'

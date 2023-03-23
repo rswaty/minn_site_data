@@ -2,13 +2,18 @@
 title: "Overstory Tree Data Exploration"
 author: "Randy Swaty"
 date: "2023-03-22"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 
 ## The basics
 
+Most data cleaning was in an Excel pivot table.  Blanks were removed.  This should be considered draft subject to QA/QC.  Raw data that includes blanks is at bottom of page. 
 
+<br>
 
 ```{r set up, message=FALSE, warning=FALSE, include=FALSE}
 
@@ -16,18 +21,25 @@ output: html_document
 
 library(crosstalk)
 library(ggsci)
+library(kableExtra)
 library(plotly)
 library(scales)
 library(tidyverse)
 
 
 # read in data, round numbers to whole numbers
-overstory_data <- read_csv("data/overstory.csv") %>%
+overstory_data_raw <- read_csv("data/overstory.csv") %>%
   mutate(ave_basal_area_whole = round(ave_basal_area, 0)) %>%
   group_by(sitename) %>%
   mutate(sitename = fct(rev(sitename)))
   
-  
+## remove blanks
+overstory_data <- read_csv("data/overstory.csv") %>%
+  mutate(ave_basal_area_whole = round(ave_basal_area, 0)) %>%
+  group_by(sitename) %>%
+  mutate(sitename = fct(rev(sitename))) %>%
+  filter(!species_trees %in% "(blank)")
+
 ```
 
 ```{r grouped  by species, echo=FALSE, message=FALSE, warning=FALSE}
@@ -50,6 +62,7 @@ grouped_species_chart  <-
 grouped_species_chart
 ```
 
+<br>
 
 ## Overstory basal area per site
 
@@ -87,9 +100,11 @@ bscols(widths = c(3, 10),
 
 ```
 
-
+<br>
 
 ## Looking across all of the sites
+
+<br>
 
 
 ```{r all sites, echo=FALSE, message=FALSE, warning=FALSE, fig.height=12, fig.width=9}
@@ -108,7 +123,7 @@ plot <-
   scale_y_continuous(label=comma) + 
   theme_bw() + 
   scale_fill_manual(values = c(
-                              "white", 
+                              "#70504d", 
                               "#325ea8", 
                               "#0b4222",
                               "#6A3D9A", 
@@ -135,4 +150,24 @@ plot <-
 ggplotly(plot)
 
 ```
+
+<br>
+
+## Pivoted and cleaned data (does have blanks)
+
+<br>
+
+```{r data table, echo=FALSE, message=FALSE, warning=FALSE}
+
+kable(overstory_data_raw,
+      format.args = list(big.mark = ",")) %>%
+  kable_styling(
+    font_size = 12,
+    bootstrap_options = c("striped", "hover", "condensed")
+  ) 
+```
+
+
+
+
 
