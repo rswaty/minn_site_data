@@ -1,6 +1,6 @@
 ---
 title: "Tree data exploration for sites of northern Minnesota"
-author: "Randy Swaty"
+author: "Randy Swaty, Laura Slavsky and Natalie McCormack"
 date: "2023-03-22"
 output: html_document
 ---

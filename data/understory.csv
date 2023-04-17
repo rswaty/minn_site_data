@@ -1,687 +1,680 @@
-sitename,dbh_class,species_seedlings,sum_tally
-64,medium,BF,4
-64,medium,PB,11
-64,medium,RM,1
-64,medium,WS,28
-64,bigly,BF,2
-64,bigly,WS,9
-64,small,BF,11
-64,small,PB,23
-64,small,QA,4
-64,small,RM,3
-64,small,WP,24
-64,small,WS,8
-Bluff 10,medium,QA,11
-Bluff 10,small,PB,18
-Bluff 10,small,QA,101
-Bluff 10,small,RP,18
-Bluff 10,small,WP,13
-Bluff 4,medium,PB,6
-Bluff 4,medium,QA,20
-Bluff 4,small,BA,3
-Bluff 4,small,BF,57
-Bluff 4,small,BP,8
-Bluff 4,small,JP,77
-Bluff 4,small,PB,34
-Bluff 4,small,QA,984
-Bluff 4,small,RP,48
-Bluff 4,small,WC,6
-Bluff 4,small,WP,154
-Bluff 4,small,WS,25
-Bluff 5,medium,QA,20
-Bluff 5,small,BF,18
-Bluff 5,small,JP,16
-Bluff 5,small,PB,19
-Bluff 5,small,QA,465
-Bluff 5,small,RM,10
-Bluff 5,small,RP,15
-Bluff 5,small,WP,73
-Bluff 5,small,WS,26
-Bluff 6,small,QA,83
-Bluff 6,medium,QA,3
-Bluff 6,small,BF,2
-Bluff 6,small,BP,31
-Bluff 6,small,JP,39
-Bluff 6,small,QA,847
-Bluff 6,small,RP,12
-Bluff 6,small,WP,31
-Bluff 6,small,WS,37
-Bluff 9,small,QA,256
-Bluff 9,small,RP,8
-Bushmaker 359 Sonju NH Gaps,medium,BF,6
-Bushmaker 359 Sonju NH Gaps,medium,SM,3
-Bushmaker 359 Sonju NH Gaps,medium,YB,1
-Bushmaker 359 Sonju NH Gaps,bigly,RM,1
-Bushmaker 359 Sonju NH Gaps,bigly,SM,2
-Bushmaker 359 Sonju NH Gaps,small,BA,4
-Bushmaker 359 Sonju NH Gaps,small,BF,25
-Bushmaker 359 Sonju NH Gaps,small,BP,2
-Bushmaker 359 Sonju NH Gaps,small,Other,2
-Bushmaker 359 Sonju NH Gaps,small,PB,25
-Bushmaker 359 Sonju NH Gaps,small,QA,4
-Bushmaker 359 Sonju NH Gaps,small,RM,4
-Bushmaker 359 Sonju NH Gaps,small,RP,1
-Bushmaker 359 Sonju NH Gaps,small,SM,258
-Bushmaker 359 Sonju NH Gaps,small,WC,13
-Bushmaker 359 Sonju NH Gaps,small,WP,5
-Bushmaker 359 Sonju NH Gaps,small,WS,3
-Bushmaker 359 Sonju NH Gaps,small,YB,24
-Cramer Road,small,RO,6
-Cramer Road,medium,BF,2
-Cramer Road,medium,QA,25
-Cramer Road,medium,SM,1
-Cramer Road,bigly,BF,1
-Cramer Road,bigly,QA,13
-Cramer Road,bigly,RO,2
-Cramer Road,bigly,SM,4
-Cramer Road,small,BA,4
-Cramer Road,small,BF,130
-Cramer Road,small,BP,36
-Cramer Road,small,QA,212
-Cramer Road,small,RM,14
-Cramer Road,small,RO,7
-Cramer Road,small,RP,36
-Cramer Road,small,SM,53
-Cramer Road,small,WP,19
-Cramer Road,small,WS,9
-Cross Salvage 2,medium,QA,2
-Cross Salvage 2,small,BF,112
-Cross Salvage 2,small,PB,90
-Cross Salvage 2,small,QA,192
-Cross Salvage 2,small,TM,44
-Cross Salvage 2,small,WP,65
-Cross Salvage 2,small,WS,132
-Cross Salvage 2,(blank),QA,1
-Day Hill Backpack,bigly,BP,1
-Day Hill Backpack,small,BP,16
-Day Hill Backpack,small,WS,4
-Day Hill Fill,bigly,QA,3
-Day Hill Fill,small,BF,2
-Day Hill Fill,small,QA,24
-Day Hill Fill,small,WP,1
-Day Hill Fill,small,WS,6
-Day Hill Gami,bigly,BP,2
-Day Hill Gami,small,BF,1
-Day Hill Gami,small,BP,28
-Day Hill Gami,small,WP,3
-Day Hill Gami,small,WS,5
-Day Hill Gitchi,small,PB,5
-Day Hill Gitchi,small,RO,1
-Day Hill Gitchi,small,WP,1
-Day Hill Gitchi,small,WS,12
-Day Hill South,medium,WP,2
-Day Hill South,bigly,WP,1
-Day Hill South,small,BO,1
-Day Hill South,small,WS,19
-Dollar Bill 10,medium,WP,2
-Dollar Bill 10,small,BF,5
-Dollar Bill 10,small,PB,10
-Dollar Bill 10,small,QA,280
-Dollar Bill 10,small,WP,23
-Dollar Bill 10,small,WS,1
-Dollar Bill 12,medium,QA,6
-Dollar Bill 12,small,BF,18
-Dollar Bill 12,small,PB,39
-Dollar Bill 12,small,QA,183
-Dollar Bill 12,small,RM,3
-Dollar Bill 12,small,WP,22
-Dollar Bill 13,small,QA,26
-Dollar Bill 13,small,PB,5
-Dollar Bill 13,small,QA,2
-Dollar Bill 13,small,WP,6
-Dollar Bill 14,small,QA,8
-Dollar Bill 14,small,BP,8
-Dollar Bill 14,small,PB,10
-Dollar Bill 14,small,QA,4
-Dollar Bill 14,small,WP,1
-Dollar Bill 15,small,BP,17
-Dollar Bill 15,small,QA,2
-Dollar Bill 15,small,BF,1
-Dollar Bill 15,small,BP,44
-Dollar Bill 15,small,PB,30
-Dollar Bill 15,small,QA,80
-Dollar Bill 15,small,RM,5
-Dollar Bill 15,small,WP,16
-Dollar Bill 18,small,BP,11
-Dollar Bill 18,small,QA,17
-Dollar Bill 18,medium,PB,2
-Dollar Bill 18,medium,QA,37
-Dollar Bill 18,medium,RM,3
-Dollar Bill 18,bigly,RM,1
-Dollar Bill 18,small,BF,7
-Dollar Bill 18,small,BP,18
-Dollar Bill 18,small,PB,62
-Dollar Bill 18,small,QA,301
-Dollar Bill 18,small,RM,24
-Dollar Bill 18,small,SM,4
-Dollar Bill 18,small,WP,13
-Dollar Bill 6,medium,PB,3
-Dollar Bill 6,small,BF,9
-Dollar Bill 6,small,PB,19
-Dollar Bill 6,small,QA,174
-Dollar Bill 6,small,WP,9
-Dollar Bill 8,small,QA,52
-Dollar Bill 8,medium,WS,2
-Dollar Bill 8,small,BF,29
-Dollar Bill 8,small,BP,40
-Dollar Bill 8,small,PB,85
-Dollar Bill 8,small,QA,905
-Dollar Bill 8,small,RM,48
-Dollar Bill 8,small,WP,75
-Dollar Bill 8,small,WS,1
-Dubbins Gap,medium,QA,1
-Dubbins Gap,medium,SM,1
-Dubbins Gap,small,BA,97
-Dubbins Gap,small,BF,3
-Dubbins Gap,small,BP,49
-Dubbins Gap,small,QA,102
-Dubbins Gap,small,RM,4
-Dubbins Gap,small,RO,4
-Dubbins Gap,small,SM,30
-Dubbins Gap,small,SWO,1
-Dubbins Gap,small,WC,5
-Dubbins Gap,small,WP,32
-Dubbins Gap,small,WS,33
-Earl West And Co 7,small,Other,1
-Earl West And Co 7,small,WP,2
-Earl West And Co 7,medium,BF,2
-Earl West And Co 7,medium,SM,1
-Earl West And Co 7,small,BF,19
-Earl West And Co 7,small,JP,1
-Earl West And Co 7,small,PB,9
-Earl West And Co 7,small,QA,197
-Earl West And Co 7,small,RM,5
-Earl West And Co 7,small,SM,7
-Earl West And Co 7,small,WP,36
-Eckbeck,small,QA,67
-Eckbeck,small,BP,51
-Eckbeck,small,QA,58
-Eckbeck,small,RO,4
-Eckbeck,small,WP,2
-Eckbeck,small,WS,2
-Eckbeck View East,small,BO,4
-Eckbeck View East,small,QA,169
-Eckbeck View East,small,WP,1
-Eckbeck View West,small,BA,10
-Eckbeck View West,small,BF,5
-Eckbeck View West,small,BO,2
-Eckbeck View West,small,BP,57
-Eckbeck View West,small,QA,1595
-Eckbeck View West,small,RM,1
-Eckbeck View West,small,RO,11
-Eckbeck View West,small,SWO,1
-Eckbeck View West,small,WP,4
-Eckbeck View West,small,WS,8
-End Of KC West 1,small,BF,27
-End Of KC West 1,small,JP,1
-End Of KC West 1,small,Other,2
-End Of KC West 1,small,RP,6
-End Of KC West 1,small,WP,17
-End Of KC West 1,small,WS,9
-End of KC West 2,small,BF,33
-End of KC West 2,small,JP,30
-End of KC West 2,small,Other,3
-End of KC West 2,small,PB,4
-End of KC West 2,small,QA,35
-End of KC West 2,small,RM,5
-End of KC West 2,small,RP,44
-End of KC West 2,small,WP,26
-End of KC West 2,small,WS,34
-Fireball 1,small,JP,13
-Fireball 1,small,QA,15
-Fireball 1,small,WS,9
-Fireball 2,small,JP,1
-Fireball 2,small,QA,10
-Fireball 2,small,JP,22
-Fireball 2,small,PB,11
-Fireball 2,small,QA,355
-Fireball 2,small,RP,22
-Fireball 2,small,WP,7
-Fireball 2,small,WS,2
-Fireball 3,small,JP,
-Fireball 3,small,BF,1
-Fireball 3,small,JP,43
-Fireball 3,small,PB,60
-Fireball 3,small,QA,557
-Fireball 3,small,RP,60
-Fireball 3,small,WP,4
-Fireball 3,small,WS,29
-Fireball 7,medium,QA,3
-Fireball 7,small,BF,3
-Fireball 7,small,JP,14
-Fireball 7,small,QA,67
-Fireball 7,small,RP,1
-Fireball 7,small,WS,3
-Harvest 2021,medium,BF,7
-Harvest 2021,medium,BP,4
-Harvest 2021,medium,PB,4
-Harvest 2021,medium,QA,8
-Harvest 2021,medium,RM,4
-Harvest 2021,medium,SM,4
-Harvest 2021,medium,WP,
-Harvest 2021,medium,WS,1
-Harvest 2021,bigly,QA,1
-Harvest 2021,bigly,SM,1
-Harvest 2021,small,BF,156
-Harvest 2021,small,BP,25
-Harvest 2021,small,PB,15
-Harvest 2021,small,QA,8
-Harvest 2021,small,RM,1
-Harvest 2021,small,SM,76
-Harvest 2021,small,WC,2
-Harvest 2021,small,WP,1
-Harvest 2021,small,WS,57
-Harvest 2021,small,YB,14
-Howard Gnesen,small,Other,3
-Howard Gnesen,small,WA,
-Howard Gnesen,small,RO,2
-Howard Gnesen,small,WA,13
-Howard Gnesen,small,WP,1
-Howard Gnesen,small,WS,3
-Kangas 1,medium,QA,4
-Kangas 1,medium,WS,2
-Kangas 1,bigly,JP,1
-Kangas 1,bigly,QA,1
-Kangas 1,bigly,RM,1
-Kangas 1,bigly,WS,5
-Kangas 1,small,BF,14
-Kangas 1,small,JP,13
-Kangas 1,small,PB,2
-Kangas 1,small,QA,284
-Kangas 1,small,RP,27
-Kangas 1,small,TM,1
-Kangas 1,small,WP,1
-Kangas 1,small,WS,19
-Kangas MFR 23,medium,PB,1
-Kangas MFR 23,small,JP,61
-Kangas MFR 23,small,PB,5
-Kangas MFR 23,small,QA,597
-Kangas MFR 23,small,RP,24
-Kangas MFR 23,small,WS,1
-KC Lake Middle,medium,BF,2
-KC Lake Middle,medium,PB,4
-KC Lake Middle,medium,WP,4
-KC Lake Middle,medium,WS,19
-KC Lake Middle,bigly,WS,4
-KC Lake Middle,small,BF,45
-KC Lake Middle,small,PB,20
-KC Lake Middle,small,RM,4
-KC Lake Middle,small,TM,1
-KC Lake Middle,small,WP,19
-KC Lake Middle,small,WS,10
-KC Lake North,medium,BF,3
-KC Lake North,medium,PB,3
-KC Lake North,medium,RM,3
-KC Lake North,medium,RP,1
-KC Lake North,medium,WP,1
-KC Lake North,medium,WS,1
-KC Lake North,medium,YB,3
-KC Lake North,bigly,BF,2
-KC Lake North,bigly,PB,2
-KC Lake North,bigly,RM,3
-KC Lake North,bigly,WS,1
-KC Lake North,small,BF,7
-KC Lake North,small,BS,2
-KC Lake North,small,PB,12
-KC Lake North,small,QA,22
-KC Lake North,small,RO,1
-KC Lake North,small,RP,1
-KC Lake North,small,WP,27
-KC Lake North,small,WS,60
-KC Lake North,small,YB,6
-KC Lake South,small,BF,56
-KC Lake South,small,PB,51
-KC Lake South,small,QA,43
-KC Lake South,small,RM,1
-KC Lake South,small,RO,7
-KC Lake South,small,WP,3
-KC Lake South,small,WS,64
-Laker 3,medium,QA,85
-Laker 3,small,BF,74
-Laker 3,small,BO,3
-Laker 3,small,BP,3
-Laker 3,small,JP,6
-Laker 3,small,PB,130
-Laker 3,small,QA,674
-Laker 3,small,RO,13
-Laker 3,small,RP,51
-Laker 3,small,SM,45
-Laker 3,small,TM,9
-Laker 3,small,WP,50
-Laker 3,small,WS,47
-Lindstrom Creek,bigly,PB,1
-Lindstrom Creek,small,BA,3
-Lindstrom Creek,small,BF,1
-Lindstrom Creek,small,Other,2
-Lindstrom Creek,small,QA,979
-Lindstrom Creek,small,WP,5
-Lindstrom Creek,small,WS,2
-Lindstrom North,small,BF,1
-Lindstrom North,small,QA,38
-Lindstrom North,small,WP,1
-Lindstrom North,small,WS,3
-Mattson Road Block,small,QA,62
-Mattson Road Block,medium,BA,13
-Mattson Road Block,medium,BP,5
-Mattson Road Block,bigly,BA,2
-Mattson Road Block,bigly,BP,2
-Mattson Road Block,bigly,QA,1
-Mattson Road Block,small,BA,89
-Mattson Road Block,small,BF,1
-Mattson Road Block,small,BP,341
-Mattson Road Block,small,QA,323
-Mattson Road Block,small,RO,5
-Mattson Road Block,small,WP,3
-Mattson Road Block,small,WS,6
-Moosewalk Middle,small,QA,41
-Moosewalk Middle,small,RM,1
-Moosewalk Middle,small,RP,9
-Moosewalk Middle,small,WP,10
-Moosewalk Middle,small,WS,3
-Moosewalk North,small,BF,5
-Moosewalk North,small,Other,1
-Moosewalk North,small,PB,15
-Moosewalk North,small,QA,11
-Moosewalk North,small,RM,15
-Moosewalk North,small,RP,1
-Moosewalk North,small,WP,1
-Moosewalk North,small,WS,9
-Moosewalk South,small,WP,2
-Moosewalk South,medium,BF,1
-Moosewalk South,medium,RM,1
-Moosewalk South,small,BF,7
-Moosewalk South,small,BP,2
-Moosewalk South,small,PB,4
-Moosewalk South,small,QA,73
-Moosewalk South,small,RM,10
-Moosewalk South,small,RP,28
-Moosewalk South,small,SM,1
-Moosewalk South,small,WP,54
-Moosewalk South,small,WS,14
-Neptune 2,medium,QA,4
-Neptune 2,small,BF,146
-Neptune 2,small,BP,16
-Neptune 2,small,BS,2
-Neptune 2,small,PB,14
-Neptune 2,small,QA,86
-Neptune 2,small,RM,2
-Neptune 2,small,RP,19
-Neptune 2,small,WP,46
-Neptune 2,small,WS,14
-Ns Non Harv 5,small,WS,1
-Ns Non Harv 5,medium,BA,3
-Ns Non Harv 5,medium,BF,2
-Ns Non Harv 5,medium,BP,4
-Ns Non Harv 5,medium,PB,3
-Ns Non Harv 5,medium,WS,1
-Ns Non Harv 5,medium,YB,1
-Ns Non Harv 5,bigly,BA,3
-Ns Non Harv 5,bigly,BP,2
-Ns Non Harv 5,bigly,PB,1
-Ns Non Harv 5,bigly,QA,1
-Ns Non Harv 5,bigly,RM,1
-Ns Non Harv 5,bigly,WS,1
-Ns Non Harv 5,bigly,YB,1
-Ns Non Harv 5,small,BA,303
-Ns Non Harv 5,small,BF,15
-Ns Non Harv 5,small,BP,183
-Ns Non Harv 5,small,Other,14
-Ns Non Harv 5,small,PB,29
-Ns Non Harv 5,small,QA,12
-Ns Non Harv 5,small,RM,32
-Ns Non Harv 5,small,SM,18
-Ns Non Harv 5,small,WC,3
-Ns Non Harv 5,small,WP,30
-Ns Non Harv 5,small,WS,9
-Old Drum South,small,BF,19
-Old Drum South,small,Other,25
-Old Drum South,small,PB,3
-Old Drum South,small,QA,516
-Old Drum South,small,RO,4
-Old Drum South,small,WS,21
-Park Hill Middle,medium,SM,3
-Park Hill Middle,small,BA,2
-Park Hill Middle,small,BP,23
-Park Hill Middle,small,SM,6
-Park Hill Middle,small,WS,5
-Park Hill North,small,PB,7
-Park Hill North,small,QA,117
-Park Hill North,small,RM,2
-Park Hill North,small,RO,5
-Park Hill North,small,SM,10
-Park Hill North,small,WP,9
-Park Hill North,small,WS,21
-Park Hill South,medium,BF,2
-Park Hill South,bigly,BF,1
-Park Hill South,bigly,SM,2
-Park Hill South,small,BF,20
-Park Hill South,small,BP,7
-Park Hill South,small,PB,10
-Park Hill South,small,QA,178
-Park Hill South,small,RM,1
-Park Hill South,small,SM,18
-Park Hill South,small,WP,5
-Park Hill South,small,WS,16
-Sawbill 7 East,medium,QA,4
-Sawbill 7 East,small,BF,8
-Sawbill 7 East,small,PB,1
-Sawbill 7 East,small,QA,136
-Sawbill 7 East,small,RM,2
-Sawbill 7 East,small,RP,8
-Sawbill 7 East,small,WP,10
-Sawbill 7 East,small,WS,4
-Sawbill 7 West,medium,BF,2
-Sawbill 7 West,medium,QA,1
-Sawbill 7 West,small,BF,8
-Sawbill 7 West,small,QA,35
-Sawbill 7 West,small,RM,1
-Sawbill 7 West,small,RP,4
-Sawbill 7 West,small,WP,2
-Sawbill 7 West,small,WS,5
-Shoepack Fuels,small,QA,24
-Shoepack Fuels,bigly,BF,1
-Shoepack Fuels,small,BF,16
-Shoepack Fuels,small,PB,12
-Shoepack Fuels,small,QA,66
-Shoepack Fuels,small,WC,4
-Shoepack Fuels,small,WP,10
-Shoepack Fuels,small,WS,7
-Shoepack Patch East,small,BF,5
-Shoepack Patch East,small,QA,68
-Shoepack Patch East,small,RM,19
-Shoepack Patch East,small,RO,2
-Shoepack Patch East,small,WP,2
-Shoepack Patch East,small,WS,2
-Shoepack Patch Middle,small,BF,2
-Shoepack Patch Middle,small,PB,3
-Shoepack Patch Middle,small,QA,44
-Shoepack Patch Middle,small,RM,8
-Shoepack Patch Middle,small,RO,2
-Shoepack Patch Middle,small,SM,4
-Shoepack Patch Middle,small,WC,6
-Shoepack Patch Middle,small,WP,2
-Shoepack Patch Middle,small,WS,8
-Sonju Lk South Release,medium,BF,1
-Sonju Lk South Release,bigly,BF,1
-Sonju Lk South Release,small,BF,17
-Sonju Lk South Release,small,PB,8
-Sonju Lk South Release,small,QA,11
-Sonju Lk South Release,small,RM,7
-Sonju Lk South Release,small,SM,2
-Sonju Lk South Release,small,WP,66
-Sonju Lk South Release,small,WS,4
-Sonju NH Gaps,small,RM,2
-Sonju NH Gaps,small,RO,2
-Sonju NH Gaps,small,SM,13
-Sonju NH Gaps,small,WP,2
-Sonju NH Gaps,small,YB,7
-Spilt Rock Rocky Top,medium,WS,1
-Spilt Rock Rocky Top,bigly,PB,1
-Spilt Rock Rocky Top,small,BF,3
-Spilt Rock Rocky Top,small,PB,9
-Spilt Rock Rocky Top,small,RO,2
-Spilt Rock Rocky Top,small,WP,1
-Spilt Rock Rocky Top,small,WS,15
-Split Rock 2021,medium,BA,1
-Split Rock 2021,medium,BF,2
-Split Rock 2021,medium,PB,6
-Split Rock 2021,medium,QA,4
-Split Rock 2021,medium,WS,4
-Split Rock 2021,bigly,BA,7
-Split Rock 2021,bigly,BP,7
-Split Rock 2021,bigly,PB,7
-Split Rock 2021,bigly,QA,15
-Split Rock 2021,bigly,RM,1
-Split Rock 2021,small,BA,153
-Split Rock 2021,small,BF,29
-Split Rock 2021,small,BO,2
-Split Rock 2021,small,BP,214
-Split Rock 2021,small,PB,21
-Split Rock 2021,small,QA,197
-Split Rock 2021,small,RM,56
-Split Rock 2021,small,RO,15
-Split Rock 2021,small,SM,1
-Split Rock 2021,small,SWO,1
-Split Rock 2021,small,TM,10
-Split Rock 2021,small,WC,9
-Split Rock 2021,small,WP,24
-Split Rock 2021,small,WS,211
-Split Rock 2021,small,YB,13
-Split Rock 2021 NE Patch,medium,PB,1
-Split Rock 2021 NE Patch,bigly,QA,4
-Split Rock 2021 NE Patch,small,BA,3
-Split Rock 2021 NE Patch,small,BF,2
-Split Rock 2021 NE Patch,small,PB,6
-Split Rock 2021 NE Patch,small,QA,78
-Split Rock 2021 NE Patch,small,RO,2
-Split Rock 2021 NE Patch,small,WC,1
-Split Rock 2021 NE Patch,small,WS,6
-Split Rock Crazy Bay,bigly,BP,2
-Split Rock Crazy Bay,small,BA,1
-Split Rock Crazy Bay,small,BO,1
-Split Rock Crazy Bay,small,BP,16
-Split Rock Crazy Bay,small,PB,2
-Split Rock Crazy Bay,small,TM,1
-Split Rock Crazy Bay,small,WC,2
-Split Rock Crazy Bay,small,WS,8
-Split Rock Crazy Bay,small,YB,1
-Split Rock Crazy East,small,BP,3
-Split Rock Crazy East,small,PB,1
-Split Rock Crazy East,small,RM,2
-Split Rock Crazy East,small,WP,2
-Split Rock Crazy East,small,WS,3
-Split Rock Exclosure,medium,BA,1
-Split Rock Exclosure,medium,BP,17
-Split Rock Exclosure,medium,PB,5
-Split Rock Exclosure,medium,QA,22
-Split Rock Exclosure,medium,SM,4
-Split Rock Exclosure,medium,TM,2
-Split Rock Exclosure,bigly,BP,2
-Split Rock Exclosure,bigly,QA,1
-Split Rock Exclosure,small,BA,6
-Split Rock Exclosure,small,BF,16
-Split Rock Exclosure,small,BP,18
-Split Rock Exclosure,small,PB,1
-Split Rock Exclosure,small,QA,10
-Split Rock Exclosure,small,TM,2
-Split Rock Exclosure,small,WP,13
-Split Rock Exclosure,small,WS,5
-Split Rock Jon,small,QA,22
-Split Rock Jon,small,RO,1
-Split Rock Jon,small,WP,1
-Split Rock Jon,small,WS,6
-Split Rock Merrill 61,bigly,BP,1
-Split Rock Merrill 61,small,BF,2
-Split Rock Merrill 61,small,BP,5
-Split Rock Merrill 61,small,PB,1
-Split Rock Merrill 61,small,RO,2
-Split Rock Merrill 61,small,TM,2
-Split Rock Merrill 61,small,WP,2
-Split Rock Merrill 61,small,WS,12
-Split Rock Pine,small,BF,2
-Split Rock Pine,small,RM,1
-Split Rock Pine,small,WC,1
-Split Rock Pine,small,WS,3
-Split Rock South,small,RO,1
-Split Rock South,small,TM,4
-Split Rock South,small,WC,2
-Split Rock South,small,WP,2
-Split Rock South,small,WS,10
-Sugarloaf South,small,BF,1
-Sugarloaf South,small,PB,
-Sugarloaf South,medium,PB,17
-Sugarloaf South,medium,QA,23
-Sugarloaf South,medium,RP,1
-Sugarloaf South,medium,WS,4
-Sugarloaf South,bigly,PB,3
-Sugarloaf South,bigly,QA,5
-Sugarloaf South,bigly,RP,1
-Sugarloaf South,bigly,WS,6
-Sugarloaf South,small,BF,114
-Sugarloaf South,small,BO,1
-Sugarloaf South,small,BP,1
-Sugarloaf South,small,BS,24
-Sugarloaf South,small,PB,399
-Sugarloaf South,small,QA,166
-Sugarloaf South,small,RM,42
-Sugarloaf South,small,RO,24
-Sugarloaf South,small,RP,33
-Sugarloaf South,small,SM,2
-Sugarloaf South,small,WC,16
-Sugarloaf South,small,WP,182
-Sugarloaf South,small,WS,318
-Sugarloaf Three,small,BF,3
-Sugarloaf Three,small,PB,8
-Sugarloaf Three,small,WS,10
-Toohey,medium,BF,13
-Toohey,medium,RM,7
-Toohey,bigly,BF,6
-Toohey,bigly,PB,5
-Toohey,bigly,RM,5
-Toohey,small,BA,6
-Toohey,small,BF,76
-Toohey,small,BS,3
-Toohey,small,Other,2
-Toohey,small,PB,6
-Toohey,small,QA,189
-Toohey,small,RM,5
-Toohey,small,WC,1
-Toohey,small,WP,25
-Toohey,small,WS,15
-Trumpet 10,medium,QA,14
-Trumpet 10,small,BF,5
-Trumpet 10,small,BP,3
-Trumpet 10,small,BS,6
-Trumpet 10,small,JP,75
-Trumpet 10,small,PB,20
-Trumpet 10,small,QA,344
-Trumpet 10,small,RM,3
-Trumpet 10,small,TM,8
-Trumpet 10,small,WP,1
-Trumpet 10,small,WS,7
-Trumpet 9,small,JP,22
-Trumpet 9,small,PB,2
-Trumpet 9,small,QA,2
-Trumpet 9,small,RM,2
-Trumpet 9,small,RP,3
-Trumpet 9,small,WS,1
-TURKEY SALVAGE MSP EAST,medium,PB,1
-TURKEY SALVAGE MSP EAST,small,PB,16
-TURKEY SALVAGE MSP EAST,small,QA,22
-TURKEY SALVAGE MSP EAST,small,RM,1
-TURKEY SALVAGE MSP EAST,small,RP,7
-TURKEY SALVAGE MSP EAST,small,WC,1
-TURKEY SALVAGE MSP EAST,small,WP,14
-TURKEY SALVAGE MSP EAST,small,WS,12
-TURKEY SALVAGE MSP WEST,small,BF,13
-TURKEY SALVAGE MSP WEST,small,PB,42
-TURKEY SALVAGE MSP WEST,small,QA,4
-TURKEY SALVAGE MSP WEST,small,RP,2
-TURKEY SALVAGE MSP WEST,small,WS,1
-Worm 1,small,WP,2
-Worm 1,small,BF,21
-Worm 1,small,PB,42
-Worm 1,small,QA,95
-Worm 1,small,WP,80
-Worm 1,small,WS,63
-Worm 1,(blank),WS,
+sitename,species_seedlings,dbh_class,tpa
+64,BF,one_to_three,28.57142857
+64,BF,three_to_five,14.28571429
+64,BF,zero_to_one,78.57142857
+64,PB,one_to_three,78.57142857
+64,PB,zero_to_one,164.2857143
+64,QA,zero_to_one,28.57142857
+64,RM,one_to_three,7.142857143
+64,RM,zero_to_one,21.42857143
+64,WP,zero_to_one,171.4285714
+64,WS,one_to_three,200
+64,WS,three_to_five,64.28571429
+64,WS,zero_to_one,57.14285714
+64,blank,one_to_three,28.57142857
+Bluff 10,PB,zero_to_one,225
+Bluff 10,QA,one_to_three,137.5
+Bluff 10,QA,zero_to_one,1262.5
+Bluff 10,RP,zero_to_one,225
+Bluff 10,WP,zero_to_one,162.5
+Bluff 4,BA,zero_to_one,8.571428571
+Bluff 4,BF,zero_to_one,162.8571429
+Bluff 4,BP,zero_to_one,22.85714286
+Bluff 4,JP,zero_to_one,220
+Bluff 4,PB,one_to_three,17.14285714
+Bluff 4,PB,zero_to_one,97.14285714
+Bluff 4,QA,one_to_three,57.14285714
+Bluff 4,QA,zero_to_one,2811.428571
+Bluff 4,RP,zero_to_one,137.1428571
+Bluff 4,WC,zero_to_one,17.14285714
+Bluff 4,WP,zero_to_one,440
+Bluff 4,WS,zero_to_one,71.42857143
+Bluff 4,blank,zero_to_one,34.28571429
+Bluff 5,BF,zero_to_one,112.5
+Bluff 5,JP,zero_to_one,100
+Bluff 5,PB,zero_to_one,118.75
+Bluff 5,QA,one_to_three,125
+Bluff 5,QA,zero_to_one,2906.25
+Bluff 5,RM,zero_to_one,62.5
+Bluff 5,RP,zero_to_one,93.75
+Bluff 5,WP,zero_to_one,456.25
+Bluff 5,WS,zero_to_one,162.5
+Bluff 5,blank,one_to_three,6.25
+Bluff 6,BF,zero_to_one,11.11111111
+Bluff 6,BP,zero_to_one,172.2222222
+Bluff 6,JP,zero_to_one,216.6666667
+Bluff 6,QA,one_to_three,16.66666667
+Bluff 6,QA,zero_to_one,5166.666667
+Bluff 6,RP,zero_to_one,66.66666667
+Bluff 6,WP,zero_to_one,172.2222222
+Bluff 6,WS,zero_to_one,205.5555556
+Bluff 9,QA,zero_to_one,6400
+Bluff 9,RP,zero_to_one,200
+Bushmaker 359 Sonju NH Gaps,BA,zero_to_one,33.33333333
+Bushmaker 359 Sonju NH Gaps,BF,one_to_three,50
+Bushmaker 359 Sonju NH Gaps,BF,zero_to_one,208.3333333
+Bushmaker 359 Sonju NH Gaps,BP,zero_to_one,16.66666667
+Bushmaker 359 Sonju NH Gaps,Other,zero_to_one,16.66666667
+Bushmaker 359 Sonju NH Gaps,PB,zero_to_one,208.3333333
+Bushmaker 359 Sonju NH Gaps,QA,zero_to_one,33.33333333
+Bushmaker 359 Sonju NH Gaps,RM,three_to_five,8.333333333
+Bushmaker 359 Sonju NH Gaps,RM,zero_to_one,33.33333333
+Bushmaker 359 Sonju NH Gaps,RP,zero_to_one,8.333333333
+Bushmaker 359 Sonju NH Gaps,SM,one_to_three,25
+Bushmaker 359 Sonju NH Gaps,SM,three_to_five,16.66666667
+Bushmaker 359 Sonju NH Gaps,SM,zero_to_one,2150
+Bushmaker 359 Sonju NH Gaps,WC,zero_to_one,108.3333333
+Bushmaker 359 Sonju NH Gaps,WP,zero_to_one,41.66666667
+Bushmaker 359 Sonju NH Gaps,WS,zero_to_one,25
+Bushmaker 359 Sonju NH Gaps,YB,one_to_three,8.333333333
+Bushmaker 359 Sonju NH Gaps,YB,zero_to_one,200
+Cramer Road,BA,zero_to_one,22.22222222
+Cramer Road,BF,one_to_three,11.11111111
+Cramer Road,BF,three_to_five,5.555555556
+Cramer Road,BF,zero_to_one,722.2222222
+Cramer Road,BP,zero_to_one,200
+Cramer Road,QA,one_to_three,138.8888889
+Cramer Road,QA,three_to_five,72.22222222
+Cramer Road,QA,zero_to_one,1177.777778
+Cramer Road,RM,zero_to_one,77.77777778
+Cramer Road,RO,three_to_five,11.11111111
+Cramer Road,RO,zero_to_one,72.22222222
+Cramer Road,RP,zero_to_one,200
+Cramer Road,SM,one_to_three,5.555555556
+Cramer Road,SM,three_to_five,22.22222222
+Cramer Road,SM,zero_to_one,294.4444444
+Cramer Road,WP,zero_to_one,105.5555556
+Cramer Road,WS,zero_to_one,50
+Cross Salvage 2,BF,zero_to_one,386.2068966
+Cross Salvage 2,PB,zero_to_one,310.3448276
+Cross Salvage 2,QA,one_to_three,6.896551724
+Cross Salvage 2,QA,zero_to_one,662.0689655
+Cross Salvage 2,QA,(blank),3.448275862
+Cross Salvage 2,TM,zero_to_one,151.7241379
+Cross Salvage 2,WP,zero_to_one,224.137931
+Cross Salvage 2,WS,zero_to_one,455.1724138
+Day Hill Backpack,BP,three_to_five,100
+Day Hill Backpack,BP,zero_to_one,1600
+Day Hill Backpack,WS,zero_to_one,400
+Day Hill Fill,BF,zero_to_one,200
+Day Hill Fill,QA,three_to_five,300
+Day Hill Fill,QA,zero_to_one,2400
+Day Hill Fill,WP,zero_to_one,100
+Day Hill Fill,WS,zero_to_one,600
+Day Hill Gami,BF,zero_to_one,100
+Day Hill Gami,BP,three_to_five,200
+Day Hill Gami,BP,zero_to_one,2800
+Day Hill Gami,WP,zero_to_one,300
+Day Hill Gami,WS,zero_to_one,500
+Day Hill Gitchi,PB,zero_to_one,250
+Day Hill Gitchi,RO,zero_to_one,50
+Day Hill Gitchi,WP,zero_to_one,50
+Day Hill Gitchi,WS,zero_to_one,600
+Day Hill South,BO,zero_to_one,16.66666667
+Day Hill South,WP,one_to_three,33.33333333
+Day Hill South,WP,three_to_five,16.66666667
+Day Hill South,WS,zero_to_one,316.6666667
+Dollar Bill 10,BF,zero_to_one,35.71428571
+Dollar Bill 10,PB,zero_to_one,71.42857143
+Dollar Bill 10,QA,zero_to_one,2000
+Dollar Bill 10,WP,one_to_three,14.28571429
+Dollar Bill 10,WP,zero_to_one,164.2857143
+Dollar Bill 10,WS,zero_to_one,7.142857143
+Dollar Bill 10,blank,zero_to_one,150
+Dollar Bill 12,BF,zero_to_one,163.6363636
+Dollar Bill 12,PB,zero_to_one,354.5454545
+Dollar Bill 12,QA,one_to_three,54.54545455
+Dollar Bill 12,QA,zero_to_one,1663.636364
+Dollar Bill 12,RM,zero_to_one,27.27272727
+Dollar Bill 12,WP,zero_to_one,200
+Dollar Bill 13,PB,zero_to_one,166.6666667
+Dollar Bill 13,QA,zero_to_one,933.3333333
+Dollar Bill 13,WP,zero_to_one,200
+Dollar Bill 14,BP,zero_to_one,200
+Dollar Bill 14,PB,zero_to_one,250
+Dollar Bill 14,QA,zero_to_one,300
+Dollar Bill 14,WP,zero_to_one,25
+Dollar Bill 15,BF,zero_to_one,10
+Dollar Bill 15,BP,zero_to_one,610
+Dollar Bill 15,PB,zero_to_one,300
+Dollar Bill 15,QA,zero_to_one,820
+Dollar Bill 15,RM,zero_to_one,50
+Dollar Bill 15,WP,zero_to_one,160
+Dollar Bill 18,BF,zero_to_one,35
+Dollar Bill 18,BP,zero_to_one,145
+Dollar Bill 18,PB,one_to_three,10
+Dollar Bill 18,PB,zero_to_one,310
+Dollar Bill 18,QA,one_to_three,185
+Dollar Bill 18,QA,zero_to_one,1590
+Dollar Bill 18,RM,one_to_three,15
+Dollar Bill 18,RM,three_to_five,5
+Dollar Bill 18,RM,zero_to_one,120
+Dollar Bill 18,SM,zero_to_one,20
+Dollar Bill 18,WP,zero_to_one,65
+Dollar Bill 6,BF,zero_to_one,128.5714286
+Dollar Bill 6,PB,one_to_three,42.85714286
+Dollar Bill 6,PB,zero_to_one,271.4285714
+Dollar Bill 6,QA,zero_to_one,2485.714286
+Dollar Bill 6,WP,zero_to_one,128.5714286
+Dollar Bill 8,BF,zero_to_one,80.55555556
+Dollar Bill 8,BP,zero_to_one,111.1111111
+Dollar Bill 8,PB,zero_to_one,236.1111111
+Dollar Bill 8,QA,zero_to_one,2658.333333
+Dollar Bill 8,RM,zero_to_one,133.3333333
+Dollar Bill 8,WP,zero_to_one,208.3333333
+Dollar Bill 8,WS,one_to_three,5.555555556
+Dollar Bill 8,WS,zero_to_one,2.777777778
+Dollar Bill 8,blank,zero_to_one,188.8888889
+Dubbins Gap,BA,zero_to_one,808.3333333
+Dubbins Gap,BF,zero_to_one,25
+Dubbins Gap,BP,zero_to_one,408.3333333
+Dubbins Gap,QA,one_to_three,8.333333333
+Dubbins Gap,QA,zero_to_one,850
+Dubbins Gap,RM,zero_to_one,33.33333333
+Dubbins Gap,RO,zero_to_one,33.33333333
+Dubbins Gap,SM,one_to_three,8.333333333
+Dubbins Gap,SM,zero_to_one,250
+Dubbins Gap,SWO,zero_to_one,8.333333333
+Dubbins Gap,WC,zero_to_one,41.66666667
+Dubbins Gap,WP,zero_to_one,266.6666667
+Dubbins Gap,WS,zero_to_one,275
+Dubbins Gap,blank,zero_to_one,91.66666667
+Earl West And Co 7,BF,one_to_three,14.28571429
+Earl West And Co 7,BF,zero_to_one,135.7142857
+Earl West And Co 7,JP,zero_to_one,7.142857143
+Earl West And Co 7,Other,zero_to_one,7.142857143
+Earl West And Co 7,PB,zero_to_one,64.28571429
+Earl West And Co 7,QA,zero_to_one,1407.142857
+Earl West And Co 7,RM,zero_to_one,35.71428571
+Earl West And Co 7,SM,one_to_three,7.142857143
+Earl West And Co 7,SM,zero_to_one,50
+Earl West And Co 7,WP,zero_to_one,271.4285714
+Eckbeck,BP,zero_to_one,2550
+Eckbeck,QA,zero_to_one,6250
+Eckbeck,RO,zero_to_one,200
+Eckbeck,WP,zero_to_one,100
+Eckbeck,WS,zero_to_one,100
+Eckbeck View East,BO,zero_to_one,200
+Eckbeck View East,QA,zero_to_one,8450
+Eckbeck View East,WP,zero_to_one,50
+Eckbeck View West,BA,zero_to_one,55.55555556
+Eckbeck View West,BF,zero_to_one,27.77777778
+Eckbeck View West,BO,zero_to_one,11.11111111
+Eckbeck View West,BP,zero_to_one,316.6666667
+Eckbeck View West,QA,zero_to_one,8861.111111
+Eckbeck View West,RM,zero_to_one,5.555555556
+Eckbeck View West,RO,zero_to_one,61.11111111
+Eckbeck View West,SWO,zero_to_one,5.555555556
+Eckbeck View West,WP,zero_to_one,22.22222222
+Eckbeck View West,WS,zero_to_one,44.44444444
+End Of KC West 1,BF,zero_to_one,300
+End Of KC West 1,JP,zero_to_one,11.11111111
+End Of KC West 1,Other,zero_to_one,22.22222222
+End Of KC West 1,RP,zero_to_one,66.66666667
+End Of KC West 1,WP,zero_to_one,188.8888889
+End Of KC West 1,WS,zero_to_one,100
+End of KC West 2,BF,zero_to_one,103.125
+End of KC West 2,JP,zero_to_one,93.75
+End of KC West 2,Other,zero_to_one,9.375
+End of KC West 2,PB,zero_to_one,12.5
+End of KC West 2,QA,zero_to_one,109.375
+End of KC West 2,RM,zero_to_one,15.625
+End of KC West 2,RP,zero_to_one,137.5
+End of KC West 2,WP,zero_to_one,81.25
+End of KC West 2,WS,zero_to_one,106.25
+Fireball 1,JP,zero_to_one,216.6666667
+Fireball 1,QA,zero_to_one,250
+Fireball 1,WS,zero_to_one,150
+Fireball 2,JP,zero_to_one,85.18518519
+Fireball 2,PB,zero_to_one,40.74074074
+Fireball 2,QA,zero_to_one,1351.851852
+Fireball 2,RP,zero_to_one,81.48148148
+Fireball 2,WP,zero_to_one,25.92592593
+Fireball 2,WS,zero_to_one,7.407407407
+Fireball 3,BF,zero_to_one,1.612903226
+Fireball 3,JP,zero_to_one,69.35483871
+Fireball 3,PB,zero_to_one,96.77419355
+Fireball 3,QA,zero_to_one,898.3870968
+Fireball 3,RP,zero_to_one,96.77419355
+Fireball 3,WP,zero_to_one,6.451612903
+Fireball 3,WS,zero_to_one,46.77419355
+Fireball 7,BF,zero_to_one,50
+Fireball 7,JP,zero_to_one,233.3333333
+Fireball 7,QA,one_to_three,50
+Fireball 7,QA,zero_to_one,1116.666667
+Fireball 7,RP,zero_to_one,16.66666667
+Fireball 7,WS,zero_to_one,50
+Harvest 2021,BF,one_to_three,35
+Harvest 2021,BF,zero_to_one,780
+Harvest 2021,BP,one_to_three,20
+Harvest 2021,BP,zero_to_one,125
+Harvest 2021,PB,one_to_three,20
+Harvest 2021,PB,zero_to_one,75
+Harvest 2021,QA,one_to_three,40
+Harvest 2021,QA,three_to_five,5
+Harvest 2021,QA,zero_to_one,40
+Harvest 2021,RM,one_to_three,20
+Harvest 2021,RM,zero_to_one,5
+Harvest 2021,SM,one_to_three,20
+Harvest 2021,SM,three_to_five,5
+Harvest 2021,SM,zero_to_one,380
+Harvest 2021,WC,zero_to_one,10
+Harvest 2021,WP,one_to_three,0
+Harvest 2021,WP,zero_to_one,5
+Harvest 2021,WS,one_to_three,5
+Harvest 2021,WS,zero_to_one,285
+Harvest 2021,YB,zero_to_one,70
+Howard Gnesen,Other,zero_to_one,75
+Howard Gnesen,RO,zero_to_one,50
+Howard Gnesen,WA,zero_to_one,325
+Howard Gnesen,WP,zero_to_one,25
+Howard Gnesen,WS,zero_to_one,75
+Kangas 1,BF,zero_to_one,155.5555556
+Kangas 1,JP,three_to_five,11.11111111
+Kangas 1,JP,zero_to_one,144.4444444
+Kangas 1,PB,zero_to_one,22.22222222
+Kangas 1,QA,one_to_three,44.44444444
+Kangas 1,QA,three_to_five,11.11111111
+Kangas 1,QA,zero_to_one,3155.555556
+Kangas 1,RM,three_to_five,11.11111111
+Kangas 1,RP,zero_to_one,300
+Kangas 1,TM,zero_to_one,11.11111111
+Kangas 1,WP,zero_to_one,11.11111111
+Kangas 1,WS,one_to_three,22.22222222
+Kangas 1,WS,three_to_five,55.55555556
+Kangas 1,WS,zero_to_one,211.1111111
+Kangas MFR 23,JP,zero_to_one,358.8235294
+Kangas MFR 23,PB,one_to_three,5.882352941
+Kangas MFR 23,PB,zero_to_one,29.41176471
+Kangas MFR 23,QA,zero_to_one,3511.764706
+Kangas MFR 23,RP,zero_to_one,141.1764706
+Kangas MFR 23,WS,zero_to_one,5.882352941
+KC Lake Middle,BF,one_to_three,22.22222222
+KC Lake Middle,BF,zero_to_one,500
+KC Lake Middle,PB,one_to_three,44.44444444
+KC Lake Middle,PB,zero_to_one,222.2222222
+KC Lake Middle,RM,zero_to_one,44.44444444
+KC Lake Middle,TM,zero_to_one,11.11111111
+KC Lake Middle,WP,one_to_three,44.44444444
+KC Lake Middle,WP,zero_to_one,211.1111111
+KC Lake Middle,WS,one_to_three,211.1111111
+KC Lake Middle,WS,three_to_five,44.44444444
+KC Lake Middle,WS,zero_to_one,111.1111111
+KC Lake North,BF,one_to_three,15.78947368
+KC Lake North,BF,three_to_five,10.52631579
+KC Lake North,BF,zero_to_one,36.84210526
+KC Lake North,BS,zero_to_one,10.52631579
+KC Lake North,PB,one_to_three,15.78947368
+KC Lake North,PB,three_to_five,10.52631579
+KC Lake North,PB,zero_to_one,63.15789474
+KC Lake North,QA,zero_to_one,115.7894737
+KC Lake North,RM,one_to_three,15.78947368
+KC Lake North,RM,three_to_five,15.78947368
+KC Lake North,RO,zero_to_one,5.263157895
+KC Lake North,RP,one_to_three,5.263157895
+KC Lake North,RP,zero_to_one,5.263157895
+KC Lake North,WP,one_to_three,5.263157895
+KC Lake North,WP,zero_to_one,142.1052632
+KC Lake North,WS,one_to_three,5.263157895
+KC Lake North,WS,three_to_five,5.263157895
+KC Lake North,WS,zero_to_one,315.7894737
+KC Lake North,YB,one_to_three,15.78947368
+KC Lake North,YB,zero_to_one,31.57894737
+KC Lake South,BF,zero_to_one,294.7368421
+KC Lake South,PB,zero_to_one,268.4210526
+KC Lake South,QA,zero_to_one,226.3157895
+KC Lake South,RM,zero_to_one,5.263157895
+KC Lake South,RO,zero_to_one,36.84210526
+KC Lake South,WP,zero_to_one,15.78947368
+KC Lake South,WS,zero_to_one,336.8421053
+Laker 3,BF,zero_to_one,274.0740741
+Laker 3,BO,zero_to_one,11.11111111
+Laker 3,BP,zero_to_one,11.11111111
+Laker 3,JP,zero_to_one,22.22222222
+Laker 3,PB,zero_to_one,481.4814815
+Laker 3,QA,one_to_three,314.8148148
+Laker 3,QA,zero_to_one,2496.296296
+Laker 3,RO,zero_to_one,48.14814815
+Laker 3,RP,zero_to_one,188.8888889
+Laker 3,SM,zero_to_one,166.6666667
+Laker 3,TM,zero_to_one,33.33333333
+Laker 3,WP,zero_to_one,185.1851852
+Laker 3,WS,zero_to_one,174.0740741
+Lindstrom Creek,BA,zero_to_one,37.5
+Lindstrom Creek,BF,zero_to_one,12.5
+Lindstrom Creek,Other,zero_to_one,25
+Lindstrom Creek,PB,three_to_five,12.5
+Lindstrom Creek,QA,zero_to_one,12237.5
+Lindstrom Creek,WP,zero_to_one,62.5
+Lindstrom Creek,WS,zero_to_one,25
+Lindstrom North,BF,zero_to_one,50
+Lindstrom North,QA,zero_to_one,1900
+Lindstrom North,WP,zero_to_one,50
+Lindstrom North,WS,zero_to_one,150
+Mattson Road Block,BA,one_to_three,108.3333333
+Mattson Road Block,BA,three_to_five,16.66666667
+Mattson Road Block,BA,zero_to_one,741.6666667
+Mattson Road Block,BF,zero_to_one,8.333333333
+Mattson Road Block,BP,one_to_three,41.66666667
+Mattson Road Block,BP,three_to_five,16.66666667
+Mattson Road Block,BP,zero_to_one,2841.666667
+Mattson Road Block,QA,three_to_five,8.333333333
+Mattson Road Block,QA,zero_to_one,3208.333333
+Mattson Road Block,RO,zero_to_one,41.66666667
+Mattson Road Block,WP,zero_to_one,25
+Mattson Road Block,WS,zero_to_one,50
+Mattson Road Block,blank,three_to_five,41.66666667
+Mattson Road Block,blank,zero_to_one,50
+Moosewalk Middle,QA,zero_to_one,1025
+Moosewalk Middle,RM,zero_to_one,25
+Moosewalk Middle,RP,zero_to_one,225
+Moosewalk Middle,WP,zero_to_one,250
+Moosewalk Middle,WS,zero_to_one,75
+Moosewalk North,BF,zero_to_one,83.33333333
+Moosewalk North,Other,zero_to_one,16.66666667
+Moosewalk North,PB,zero_to_one,250
+Moosewalk North,QA,zero_to_one,183.3333333
+Moosewalk North,RM,zero_to_one,250
+Moosewalk North,RP,zero_to_one,16.66666667
+Moosewalk North,WP,zero_to_one,16.66666667
+Moosewalk North,WS,zero_to_one,150
+Moosewalk South,BF,one_to_three,3.448275862
+Moosewalk South,BF,zero_to_one,24.13793103
+Moosewalk South,BP,zero_to_one,6.896551724
+Moosewalk South,PB,zero_to_one,13.79310345
+Moosewalk South,QA,zero_to_one,251.7241379
+Moosewalk South,RM,one_to_three,3.448275862
+Moosewalk South,RM,zero_to_one,34.48275862
+Moosewalk South,RP,zero_to_one,96.55172414
+Moosewalk South,SM,zero_to_one,3.448275862
+Moosewalk South,WP,zero_to_one,193.1034483
+Moosewalk South,WS,zero_to_one,48.27586207
+Neptune 2,BF,zero_to_one,608.3333333
+Neptune 2,BP,zero_to_one,66.66666667
+Neptune 2,BS,zero_to_one,8.333333333
+Neptune 2,PB,zero_to_one,58.33333333
+Neptune 2,QA,one_to_three,16.66666667
+Neptune 2,QA,zero_to_one,358.3333333
+Neptune 2,RM,zero_to_one,8.333333333
+Neptune 2,RP,zero_to_one,79.16666667
+Neptune 2,WP,zero_to_one,191.6666667
+Neptune 2,WS,zero_to_one,58.33333333
+Ns Non Harv 5,BA,one_to_three,16.66666667
+Ns Non Harv 5,BA,three_to_five,16.66666667
+Ns Non Harv 5,BA,zero_to_one,1683.333333
+Ns Non Harv 5,BF,one_to_three,11.11111111
+Ns Non Harv 5,BF,zero_to_one,83.33333333
+Ns Non Harv 5,BP,one_to_three,22.22222222
+Ns Non Harv 5,BP,three_to_five,11.11111111
+Ns Non Harv 5,BP,zero_to_one,1016.666667
+Ns Non Harv 5,Other,zero_to_one,77.77777778
+Ns Non Harv 5,PB,one_to_three,16.66666667
+Ns Non Harv 5,PB,three_to_five,5.555555556
+Ns Non Harv 5,PB,zero_to_one,161.1111111
+Ns Non Harv 5,QA,three_to_five,5.555555556
+Ns Non Harv 5,QA,zero_to_one,66.66666667
+Ns Non Harv 5,RM,three_to_five,5.555555556
+Ns Non Harv 5,RM,zero_to_one,177.7777778
+Ns Non Harv 5,SM,zero_to_one,100
+Ns Non Harv 5,WC,zero_to_one,16.66666667
+Ns Non Harv 5,WP,zero_to_one,166.6666667
+Ns Non Harv 5,WS,one_to_three,5.555555556
+Ns Non Harv 5,WS,three_to_five,5.555555556
+Ns Non Harv 5,WS,zero_to_one,55.55555556
+Ns Non Harv 5,YB,one_to_three,5.555555556
+Ns Non Harv 5,YB,three_to_five,5.555555556
+Ns Non Harv 5,blank,zero_to_one,261.1111111
+Old Drum South,BF,zero_to_one,237.5
+Old Drum South,Other,zero_to_one,312.5
+Old Drum South,PB,zero_to_one,37.5
+Old Drum South,QA,zero_to_one,6450
+Old Drum South,RO,zero_to_one,50
+Old Drum South,WS,zero_to_one,262.5
+Park Hill Middle,BA,zero_to_one,200
+Park Hill Middle,BP,zero_to_one,2300
+Park Hill Middle,SM,one_to_three,300
+Park Hill Middle,SM,zero_to_one,600
+Park Hill Middle,WS,zero_to_one,500
+Park Hill North,PB,zero_to_one,175
+Park Hill North,QA,zero_to_one,2925
+Park Hill North,RM,zero_to_one,50
+Park Hill North,RO,zero_to_one,125
+Park Hill North,SM,zero_to_one,250
+Park Hill North,WP,zero_to_one,225
+Park Hill North,WS,zero_to_one,525
+Park Hill South,BF,one_to_three,33.33333333
+Park Hill South,BF,three_to_five,16.66666667
+Park Hill South,BF,zero_to_one,333.3333333
+Park Hill South,BP,zero_to_one,116.6666667
+Park Hill South,PB,zero_to_one,166.6666667
+Park Hill South,QA,zero_to_one,2966.666667
+Park Hill South,RM,zero_to_one,16.66666667
+Park Hill South,SM,three_to_five,33.33333333
+Park Hill South,SM,zero_to_one,300
+Park Hill South,WP,zero_to_one,83.33333333
+Park Hill South,WS,zero_to_one,266.6666667
+Sawbill 7 East,BF,zero_to_one,88.88888889
+Sawbill 7 East,PB,zero_to_one,11.11111111
+Sawbill 7 East,QA,one_to_three,44.44444444
+Sawbill 7 East,QA,zero_to_one,1511.111111
+Sawbill 7 East,RM,zero_to_one,22.22222222
+Sawbill 7 East,RP,zero_to_one,88.88888889
+Sawbill 7 East,WP,zero_to_one,111.1111111
+Sawbill 7 East,WS,zero_to_one,44.44444444
+Sawbill 7 West,BF,one_to_three,50
+Sawbill 7 West,BF,zero_to_one,200
+Sawbill 7 West,QA,one_to_three,25
+Sawbill 7 West,QA,zero_to_one,875
+Sawbill 7 West,RM,zero_to_one,25
+Sawbill 7 West,RP,zero_to_one,100
+Sawbill 7 West,WP,zero_to_one,50
+Sawbill 7 West,WS,zero_to_one,125
+Shoepack Fuels,BF,three_to_five,16.66666667
+Shoepack Fuels,BF,zero_to_one,266.6666667
+Shoepack Fuels,PB,zero_to_one,200
+Shoepack Fuels,QA,zero_to_one,1500
+Shoepack Fuels,WC,zero_to_one,66.66666667
+Shoepack Fuels,WP,zero_to_one,166.6666667
+Shoepack Fuels,WS,zero_to_one,116.6666667
+Shoepack Patch East,BF,zero_to_one,125
+Shoepack Patch East,QA,zero_to_one,1700
+Shoepack Patch East,RM,zero_to_one,475
+Shoepack Patch East,RO,zero_to_one,50
+Shoepack Patch East,WP,zero_to_one,50
+Shoepack Patch East,WS,zero_to_one,50
+Shoepack Patch Middle,BF,zero_to_one,50
+Shoepack Patch Middle,PB,zero_to_one,75
+Shoepack Patch Middle,QA,zero_to_one,1100
+Shoepack Patch Middle,RM,zero_to_one,200
+Shoepack Patch Middle,RO,zero_to_one,50
+Shoepack Patch Middle,SM,zero_to_one,100
+Shoepack Patch Middle,WC,zero_to_one,150
+Shoepack Patch Middle,WP,zero_to_one,50
+Shoepack Patch Middle,WS,zero_to_one,200
+Sonju Lk South Release,BF,one_to_three,14.28571429
+Sonju Lk South Release,BF,three_to_five,14.28571429
+Sonju Lk South Release,BF,zero_to_one,242.8571429
+Sonju Lk South Release,PB,zero_to_one,114.2857143
+Sonju Lk South Release,QA,zero_to_one,157.1428571
+Sonju Lk South Release,RM,zero_to_one,100
+Sonju Lk South Release,SM,zero_to_one,28.57142857
+Sonju Lk South Release,WP,zero_to_one,942.8571429
+Sonju Lk South Release,WS,zero_to_one,57.14285714
+Sonju NH Gaps,RM,zero_to_one,100
+Sonju NH Gaps,RO,zero_to_one,100
+Sonju NH Gaps,SM,zero_to_one,650
+Sonju NH Gaps,WP,zero_to_one,100
+Sonju NH Gaps,YB,zero_to_one,350
+Spilt Rock Rocky Top,BF,zero_to_one,100
+Spilt Rock Rocky Top,PB,three_to_five,33.33333333
+Spilt Rock Rocky Top,PB,zero_to_one,300
+Spilt Rock Rocky Top,RO,zero_to_one,66.66666667
+Spilt Rock Rocky Top,WP,zero_to_one,33.33333333
+Spilt Rock Rocky Top,WS,one_to_three,33.33333333
+Spilt Rock Rocky Top,WS,zero_to_one,500
+Split Rock 2021,BA,one_to_three,1.818181818
+Split Rock 2021,BA,three_to_five,12.72727273
+Split Rock 2021,BA,zero_to_one,278.1818182
+Split Rock 2021,BF,one_to_three,3.636363636
+Split Rock 2021,BF,zero_to_one,52.72727273
+Split Rock 2021,BO,zero_to_one,3.636363636
+Split Rock 2021,BP,three_to_five,12.72727273
+Split Rock 2021,BP,zero_to_one,389.0909091
+Split Rock 2021,PB,one_to_three,10.90909091
+Split Rock 2021,PB,three_to_five,12.72727273
+Split Rock 2021,PB,zero_to_one,38.18181818
+Split Rock 2021,QA,one_to_three,7.272727273
+Split Rock 2021,QA,three_to_five,27.27272727
+Split Rock 2021,QA,zero_to_one,358.1818182
+Split Rock 2021,RM,three_to_five,1.818181818
+Split Rock 2021,RM,zero_to_one,101.8181818
+Split Rock 2021,RO,zero_to_one,27.27272727
+Split Rock 2021,SM,zero_to_one,1.818181818
+Split Rock 2021,SWO,zero_to_one,1.818181818
+Split Rock 2021,TM,zero_to_one,18.18181818
+Split Rock 2021,WC,zero_to_one,16.36363636
+Split Rock 2021,WP,zero_to_one,43.63636364
+Split Rock 2021,WS,one_to_three,7.272727273
+Split Rock 2021,WS,zero_to_one,383.6363636
+Split Rock 2021,YB,zero_to_one,23.63636364
+Split Rock 2021,blank,one_to_three,1.818181818
+Split Rock 2021,blank,zero_to_one,7.272727273
+Split Rock 2021 NE Patch,BA,zero_to_one,100
+Split Rock 2021 NE Patch,BF,zero_to_one,66.66666667
+Split Rock 2021 NE Patch,PB,one_to_three,33.33333333
+Split Rock 2021 NE Patch,PB,zero_to_one,200
+Split Rock 2021 NE Patch,QA,three_to_five,133.3333333
+Split Rock 2021 NE Patch,QA,zero_to_one,2600
+Split Rock 2021 NE Patch,RO,zero_to_one,66.66666667
+Split Rock 2021 NE Patch,WC,zero_to_one,33.33333333
+Split Rock 2021 NE Patch,WS,zero_to_one,200
+Split Rock Crazy Bay,BA,zero_to_one,33.33333333
+Split Rock Crazy Bay,BO,zero_to_one,33.33333333
+Split Rock Crazy Bay,BP,three_to_five,66.66666667
+Split Rock Crazy Bay,BP,zero_to_one,533.3333333
+Split Rock Crazy Bay,PB,zero_to_one,66.66666667
+Split Rock Crazy Bay,TM,zero_to_one,33.33333333
+Split Rock Crazy Bay,WC,zero_to_one,66.66666667
+Split Rock Crazy Bay,WS,zero_to_one,266.6666667
+Split Rock Crazy Bay,YB,zero_to_one,33.33333333
+Split Rock Crazy Bay,blank,zero_to_one,200
+Split Rock Crazy East,BP,zero_to_one,150
+Split Rock Crazy East,PB,zero_to_one,50
+Split Rock Crazy East,RM,zero_to_one,100
+Split Rock Crazy East,WP,zero_to_one,100
+Split Rock Crazy East,WS,zero_to_one,150
+Split Rock Exclosure,BA,one_to_three,11.11111111
+Split Rock Exclosure,BA,zero_to_one,66.66666667
+Split Rock Exclosure,BF,zero_to_one,177.7777778
+Split Rock Exclosure,BP,one_to_three,188.8888889
+Split Rock Exclosure,BP,three_to_five,22.22222222
+Split Rock Exclosure,BP,zero_to_one,200
+Split Rock Exclosure,PB,one_to_three,55.55555556
+Split Rock Exclosure,PB,zero_to_one,11.11111111
+Split Rock Exclosure,QA,one_to_three,244.4444444
+Split Rock Exclosure,QA,three_to_five,11.11111111
+Split Rock Exclosure,QA,zero_to_one,111.1111111
+Split Rock Exclosure,SM,one_to_three,44.44444444
+Split Rock Exclosure,TM,one_to_three,22.22222222
+Split Rock Exclosure,TM,zero_to_one,22.22222222
+Split Rock Exclosure,WP,zero_to_one,144.4444444
+Split Rock Exclosure,WS,zero_to_one,55.55555556
+Split Rock Jon,QA,zero_to_one,1100
+Split Rock Jon,RO,zero_to_one,50
+Split Rock Jon,WP,zero_to_one,50
+Split Rock Jon,WS,zero_to_one,300
+Split Rock Merrill 61,BF,zero_to_one,50
+Split Rock Merrill 61,BP,three_to_five,25
+Split Rock Merrill 61,BP,zero_to_one,125
+Split Rock Merrill 61,PB,zero_to_one,25
+Split Rock Merrill 61,RO,zero_to_one,50
+Split Rock Merrill 61,TM,zero_to_one,50
+Split Rock Merrill 61,WP,zero_to_one,50
+Split Rock Merrill 61,WS,zero_to_one,300
+Split Rock Pine,BF,zero_to_one,200
+Split Rock Pine,RM,zero_to_one,100
+Split Rock Pine,WC,zero_to_one,100
+Split Rock Pine,WS,zero_to_one,300
+Split Rock South,RO,zero_to_one,50
+Split Rock South,TM,zero_to_one,200
+Split Rock South,WC,zero_to_one,100
+Split Rock South,WP,zero_to_one,100
+Split Rock South,WS,zero_to_one,500
+Sugarloaf South,BF,zero_to_one,147.4358974
+Sugarloaf South,BO,zero_to_one,1.282051282
+Sugarloaf South,BP,zero_to_one,1.282051282
+Sugarloaf South,BS,zero_to_one,30.76923077
+Sugarloaf South,PB,one_to_three,21.79487179
+Sugarloaf South,PB,three_to_five,3.846153846
+Sugarloaf South,PB,zero_to_one,511.5384615
+Sugarloaf South,QA,one_to_three,29.48717949
+Sugarloaf South,QA,three_to_five,6.41025641
+Sugarloaf South,QA,zero_to_one,212.8205128
+Sugarloaf South,RM,zero_to_one,53.84615385
+Sugarloaf South,RO,zero_to_one,30.76923077
+Sugarloaf South,RP,one_to_three,1.282051282
+Sugarloaf South,RP,three_to_five,1.282051282
+Sugarloaf South,RP,zero_to_one,42.30769231
+Sugarloaf South,SM,zero_to_one,2.564102564
+Sugarloaf South,WC,zero_to_one,20.51282051
+Sugarloaf South,WP,zero_to_one,233.3333333
+Sugarloaf South,WS,one_to_three,5.128205128
+Sugarloaf South,WS,three_to_five,7.692307692
+Sugarloaf South,WS,zero_to_one,407.6923077
+Sugarloaf South,blank,one_to_three,8.974358974
+Sugarloaf South,blank,three_to_five,7.692307692
+Sugarloaf South,blank,zero_to_one,3.846153846
+Sugarloaf Three,BF,zero_to_one,300
+Sugarloaf Three,PB,zero_to_one,800
+Sugarloaf Three,WS,zero_to_one,1000
+Toohey,BA,zero_to_one,33.33333333
+Toohey,BF,one_to_three,72.22222222
+Toohey,BF,three_to_five,33.33333333
+Toohey,BF,zero_to_one,422.2222222
+Toohey,BS,zero_to_one,16.66666667
+Toohey,Other,zero_to_one,11.11111111
+Toohey,PB,three_to_five,27.77777778
+Toohey,PB,zero_to_one,33.33333333
+Toohey,QA,zero_to_one,1050
+Toohey,RM,one_to_three,38.88888889
+Toohey,RM,three_to_five,27.77777778
+Toohey,RM,zero_to_one,27.77777778
+Toohey,WC,zero_to_one,5.555555556
+Toohey,WP,zero_to_one,138.8888889
+Toohey,WS,zero_to_one,83.33333333
+Trumpet 10,BF,zero_to_one,26.31578947
+Trumpet 10,BP,zero_to_one,15.78947368
+Trumpet 10,BS,zero_to_one,31.57894737
+Trumpet 10,JP,zero_to_one,394.7368421
+Trumpet 10,PB,zero_to_one,105.2631579
+Trumpet 10,QA,one_to_three,73.68421053
+Trumpet 10,QA,zero_to_one,1810.526316
+Trumpet 10,RM,zero_to_one,15.78947368
+Trumpet 10,TM,zero_to_one,42.10526316
+Trumpet 10,WP,zero_to_one,5.263157895
+Trumpet 10,WS,zero_to_one,36.84210526
+Trumpet 9,JP,zero_to_one,440
+Trumpet 9,PB,zero_to_one,40
+Trumpet 9,QA,zero_to_one,40
+Trumpet 9,RM,zero_to_one,40
+Trumpet 9,RP,zero_to_one,60
+Trumpet 9,WS,zero_to_one,20
+TURKEY SALVAGE MSP EAST,PB,one_to_three,25
+TURKEY SALVAGE MSP EAST,PB,zero_to_one,400
+TURKEY SALVAGE MSP EAST,QA,zero_to_one,550
+TURKEY SALVAGE MSP EAST,RM,zero_to_one,25
+TURKEY SALVAGE MSP EAST,RP,zero_to_one,175
+TURKEY SALVAGE MSP EAST,WC,zero_to_one,25
+TURKEY SALVAGE MSP EAST,WP,zero_to_one,350
+TURKEY SALVAGE MSP EAST,WS,zero_to_one,300
+TURKEY SALVAGE MSP WEST,BF,zero_to_one,325
+TURKEY SALVAGE MSP WEST,PB,zero_to_one,1050
+TURKEY SALVAGE MSP WEST,QA,zero_to_one,100
+TURKEY SALVAGE MSP WEST,RP,zero_to_one,50
+TURKEY SALVAGE MSP WEST,WS,zero_to_one,25
+Worm 1,BF,zero_to_one,42
+Worm 1,PB,zero_to_one,84
+Worm 1,QA,zero_to_one,190
+Worm 1,WP,zero_to_one,164
+Worm 1,WS,zero_to_one,126
+Worm 1,WS,(blank),0

@@ -30,14 +30,14 @@ library(tidyverse)
 # read in data, round numbers to whole numbers
 overstory_data_raw <- read_csv("data/overstory.csv") %>%
   mutate(ave_basal_area_whole = round(ave_basal_area, 0)) %>%
-  group_by(sitename) %>%
-  mutate(sitename = fct(rev(sitename)))
+  group_by(site_name) %>%
+  mutate(site_name = fct(rev(site_name)))
   
 ## remove blanks
 overstory_data <- read_csv("data/overstory.csv") %>%
   mutate(ave_basal_area_whole = round(ave_basal_area, 0)) %>%
-  group_by(sitename) %>%
-  mutate(sitename = fct(rev(sitename))) %>%
+  group_by(site_name) %>%
+  mutate(site_name = fct(rev(site_name))) %>%
   filter(!species_trees %in% "(blank)")
 
 ```
@@ -90,7 +90,7 @@ bscols(widths = c(3, 10),
        filter_select("BP", 
                      "Select site", 
                      sd_overstory_data, 
-                     ~ sitename,
+                     ~ site_name,
                      multiple = FALSE),
        ggplotly(basal_area_chart,
                 tooltip = FALSE,
@@ -109,7 +109,7 @@ bscols(widths = c(3, 10),
 
 ```{r all sites, echo=FALSE, message=FALSE, warning=FALSE, fig.height=12, fig.width=9}
 plot <-
-  ggplot(overstory_data, aes(fill = species_trees, y = ave_basal_area_whole, x = sitename)) +
+  ggplot(overstory_data, aes(fill = species_trees, y = ave_basal_area_whole, x = site_name)) +
   geom_bar(position = "stack", stat = "identity") +
   coord_flip() +
   labs(
