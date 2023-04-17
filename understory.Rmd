@@ -62,7 +62,7 @@ grouped_species_chart
 ```
 
 
-## Basal area per species
+## Trees per acre per species
 
 <br>
 

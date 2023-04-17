@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## The basics
 
-There is a need to explore basic tree demographic data for TNC's restoration sites in northern Minnesota.  Based of the dataset [CLEAN_data_Fall2022_from_NM.xlsx](data/CLEAN_data_Fall2022_from_NM.xlsx) I:
+There is a need to explore basic tree demographic data for TNC's restoration sites in northern Minnesota.  Based of the dataset [CLEAN_data_Fall2022_from_NM.xlsx](data/CLEAN_data_Fall2022_BAandTPAcalcs.xlsx) I:
 
 1. Used pivot tables to generate clean [overstory](data/overstory.csv) and [understory](data/understory.csv) datasets
 2. Made some basic data exploration charts
