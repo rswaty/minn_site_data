@@ -12,6 +12,16 @@ output:
 
 Most data cleaning was in an Excel pivot table.  Blanks were removed.  This should be considered draft subject to QA/QC.  Raw data that includes blanks is at bottom of page. 
 
+**As of September 28, 2023 species lists updated as recommended by Laura Slavsky:**
+
+Oaks - red oak, bur oak, swamp white oak
+
+Non-planted - red maple, sugar maple, balsam fir, black ash, white ash, paper birch
+
+Aspen - quaking aspen, bigtooth aspen, balsam poplar
+
+*All planted species represented individually*
+
 <br>
 
 ```{r us set up, message=FALSE, warning=FALSE, include=FALSE}
@@ -25,16 +35,24 @@ library(plotly)
 library(scales)
 library(tidyverse)
 
-# read in data, round numbers to whole numbers
-understory_data_raw <- read_csv("data/understory.csv") %>%
-  group_by(sitename) %>%
-  mutate(sitename = fct(rev(sitename)))
+# read in data
+understory_data_raw <- read_csv("data/understory.csv")
   
-## remove blanks
+## remove blanks, round to whole numbers, order
 understory_data <- read_csv("data/understory.csv", col_types = cols(tpa = col_number())) %>%
   group_by(sitename) %>%
   mutate(sitename = fct(rev(sitename))) %>%
   filter(!dbh_class %in% "(blank)")
+
+# update species list according to notes supplied by Laura Slavsky
+understory_data_updated <- understory_data%>%
+  mutate(updated_seedlings = case_when(
+    species_seedlings %in% c("BO", "RO", "SWO") ~ "Oaks",
+    species_seedlings %in% c("RM", "SM", "BF", "BA", "WA", "PB") ~ "Non-planted",
+    species_seedlings %in% c("QA", "BT", "BP") ~ "Aspen",
+    TRUE ~ species_seedlings
+    
+  ))
 
 ```
 
@@ -43,18 +61,18 @@ understory_data <- read_csv("data/understory.csv", col_types = cols(tpa = col_nu
 
 ```{r grouped  by species, echo=FALSE, message=FALSE, warning=FALSE}
 
-grouped_species <- understory_data %>%
-  group_by(species_seedlings)%>%
+grouped_species <- understory_data_updated %>%
+  group_by(updated_seedlings)%>%
   summarize(mean_seedlings = mean(tpa))
 
 grouped_species_chart  <- 
-  ggplot(data = grouped_species, aes(x = species_seedlings, y = mean_seedlings)) +
+  ggplot(data = grouped_species, aes(x = updated_seedlings, y = mean_seedlings)) +
   geom_bar(stat = "identity", fill = "#43334d", na.rm = TRUE) +
   labs(
     title = "Mean number of seedlings by species across all sites",
     x = "",
     y = "Mean trees per acre") +
-  scale_x_discrete(limits = rev(grouped_species$species_seedlings)) +
+  scale_x_discrete(limits = rev(grouped_species$updated_seedlings)) +
   coord_flip() +
   theme_bw()
 
@@ -68,13 +86,13 @@ grouped_species_chart
 
 ```{r grouped bar us, echo=FALSE, message=FALSE, warning=FALSE, fig.height= 10, fig.width= 9}
 
-grouped_species_ba <- understory_data %>%
-  group_by(species_seedlings, dbh_class) %>%
+grouped_species_ba <- understory_data_updated %>%
+  group_by(updated_seedlings, dbh_class) %>%
   summarise(mean_seedlings = mean(tpa))
   
 
 ba_species_chart  <- 
-  ggplot(data = grouped_species_ba, aes(x = species_seedlings, 
+  ggplot(data = grouped_species_ba, aes(x = updated_seedlings, 
                                      y = mean_seedlings,
                                      fill = dbh_class)) + 
   geom_col(colour="black",
@@ -85,7 +103,7 @@ ba_species_chart  <-
     x = "",
     y = "Mean trees per acre",
     cols = "DBH Class") +
-  scale_x_discrete(limits = rev(grouped_species$species_seedlings)) +
+  scale_x_discrete(limits = rev(grouped_species$updated_seedlings)) +
   coord_flip() +
   theme_bw(base_size = 14) + 
   scale_fill_manual(values=c("#999999", "#E69F00", "#56B4E9"), 
@@ -107,12 +125,12 @@ ba_species_chart
 <br>
 ```{r understory click, echo=FALSE, message=FALSE, warning=FALSE, fig.height= 9, fig.width= 9}
 
-sd_understory_data <- highlight_key(understory_data)
+sd_understory_data_updated <- highlight_key(understory_data_updated)
 
 
 
 basal_area_chart <- 
-  ggplot(sd_understory_data, aes(x = species_seedlings,
+  ggplot(sd_understory_data_updated, aes(x = updated_seedlings,
                                  y = tpa,
                                  fill = dbh_class )) +
   geom_jitter(size = 5,
@@ -131,7 +149,7 @@ basal_area_chart <-
 bscols(widths = c(3, 10),
        filter_select("BP", 
                      "Select site", 
-                     sd_understory_data, 
+                     sd_understory_data_updated, 
                      ~ sitename,
                      multiple = FALSE),
        ggplotly(basal_area_chart,
@@ -142,7 +160,7 @@ bscols(widths = c(3, 10),
 
 <br>
 
-## Pivoted and cleaned data (does have blanks)
+## Pivoted and cleaned data (does have blanks; or updated species list)
 
 ```{r data table, echo=FALSE, message=FALSE, warning=FALSE}
 

@@ -13,6 +13,16 @@ output:
 
 Most data cleaning was in an Excel pivot table.  Blanks were removed.  This should be considered draft subject to QA/QC.  Raw data that includes blanks is at bottom of page. 
 
+**As of September 28, 2023 species lists updated as recommended by Laura Slavsky:**
+
+Oaks - red oak, bur oak, swamp white oak
+
+Non-planted - red maple, sugar maple, balsam fir, black ash, white ash, paper birch
+
+Aspen - quaking aspen, bigtooth aspen, balsam poplar
+
+*All planted species represented individually*
+
 <br>
 
 ```{r set up, message=FALSE, warning=FALSE, include=FALSE}
@@ -40,22 +50,36 @@ overstory_data <- read_csv("data/overstory.csv") %>%
   mutate(site_name = fct(rev(site_name))) %>%
   filter(!species_trees %in% "(blank)")
 
+# update species list according to notes supplied by Laura Slavsky
+overstory_data_updated <- overstory_data %>%
+  mutate(updated_species = case_when(
+    species_trees %in% c("BO", "RO", "SWO") ~ "Oaks",
+    species_trees %in% c("RM", "SM", "BF", "BA", "WA", "PB") ~ "Non-planted",
+    species_trees %in% c("QA", "BT", "BP") ~ "Aspen",
+    TRUE ~ species_trees
+    
+  ))
+  
+
 ```
+
+
+
 
 ```{r grouped  by species, echo=FALSE, message=FALSE, warning=FALSE}
 
-grouped_species <- overstory_data %>%
-  group_by(species_trees)%>%
+grouped_species <- overstory_data_updated %>%
+  group_by(updated_species)%>%
   summarise(mean_basal_area = mean(ave_basal_area_whole))
 
 grouped_species_chart  <- 
-  ggplot(data = grouped_species, aes(x = species_trees, y = mean_basal_area)) +
+  ggplot(data = grouped_species, aes(x = updated_species, y = mean_basal_area)) +
   geom_bar(stat = "identity", fill = "purple") +
   labs(
     title = "Mean Basal Area by Species across all sites",
     x = "",
     y = "Basal Area") +
-  scale_x_discrete(limits = rev(grouped_species$species_trees)) +
+  scale_x_discrete(limits = rev(grouped_species$updated_species)) +
   coord_flip() +
   theme_bw()
 
@@ -70,12 +94,12 @@ grouped_species_chart
 
 # set up key for crosstalk
 
-sd_overstory_data <- highlight_key(overstory_data)
+sd_overstory_data <- highlight_key(overstory_data_updated)
 
 
 
 basal_area_chart <- 
-  ggplot(sd_overstory_data, aes(x = species_trees,
+  ggplot(sd_overstory_data, aes(x = updated_species,
                                  y = ave_basal_area_whole)) +
   geom_point(size = 3,
              colour = "#4c0185") +
@@ -109,7 +133,7 @@ bscols(widths = c(3, 10),
 
 ```{r all sites, echo=FALSE, message=FALSE, warning=FALSE, fig.height=12, fig.width=9}
 plot <-
-  ggplot(overstory_data, aes(fill = species_trees, y = ave_basal_area_whole, x = site_name)) +
+  ggplot(overstory_data_updated, aes(fill = updated_species, y = ave_basal_area_whole, x = site_name)) +
   geom_bar(position = "stack", stat = "identity") +
   coord_flip() +
   labs(
@@ -153,7 +177,7 @@ ggplotly(plot)
 
 <br>
 
-## Pivoted and cleaned data (does have blanks)
+## Pivoted and cleaned data (does have blanks; without updates)
 
 <br>
 
