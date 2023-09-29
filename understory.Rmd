@@ -22,6 +22,8 @@ Aspen - quaking aspen, bigtooth aspen, balsam poplar
 
 *All planted species represented individually*
 
+**Removed "Howard Gnesen" sites**
+
 <br>
 
 ```{r us set up, message=FALSE, warning=FALSE, include=FALSE}
@@ -50,9 +52,8 @@ understory_data_updated <- understory_data%>%
     species_seedlings %in% c("BO", "RO", "SWO") ~ "Oaks",
     species_seedlings %in% c("RM", "SM", "BF", "BA", "WA", "PB") ~ "Non-planted",
     species_seedlings %in% c("QA", "BT", "BP") ~ "Aspen",
-    TRUE ~ species_seedlings
-    
-  ))
+    TRUE ~ species_seedlings)) %>%
+  filter(sitename !="Howard Gnesen")
 
 ```
 

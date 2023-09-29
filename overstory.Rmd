@@ -23,6 +23,8 @@ Aspen - quaking aspen, bigtooth aspen, balsam poplar
 
 *All planted species represented individually*
 
+**Removed "Howard Gnesen" sites**
+
 <br>
 
 ```{r set up, message=FALSE, warning=FALSE, include=FALSE}
@@ -50,16 +52,14 @@ overstory_data <- read_csv("data/overstory.csv") %>%
   mutate(site_name = fct(rev(site_name))) %>%
   filter(!species_trees %in% "(blank)")
 
-# update species list according to notes supplied by Laura Slavsky
+# update species list according to notes supplied by Laura Slavsky; removal of Howard Gnesen
 overstory_data_updated <- overstory_data %>%
   mutate(updated_species = case_when(
     species_trees %in% c("BO", "RO", "SWO") ~ "Oaks",
     species_trees %in% c("RM", "SM", "BF", "BA", "WA", "PB") ~ "Non-planted",
     species_trees %in% c("QA", "BT", "BP") ~ "Aspen",
-    TRUE ~ species_trees
-    
-  ))
-  
+    TRUE ~ species_trees)) %>%
+  filter(site_name !="Howard Gnesen")
 
 ```
 
