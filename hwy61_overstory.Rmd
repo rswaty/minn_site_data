@@ -1,0 +1,227 @@
+---
+title: "Hwy 61 Overstory"
+author: "Randy Swaty"
+date: "2023-09-29"
+output: html_document
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+## The basics--Hwy 61 Sites
+
+Most data cleaning was in an Excel pivot table. Blanks were removed.
+This should be considered draft subject to QA/QC. Raw data that includes
+blanks is at bottom of page.
+
+**As of September 28, 2023 species lists updated as recommended by Laura
+Slavsky:**
+
+Oaks - red oak, bur oak, swamp white oak
+
+Non-planted - red maple, sugar maple, balsam fir, black ash, white ash,
+paper birch
+
+Aspen - quaking aspen, bigtooth aspen, balsam poplar
+
+*All planted species represented individually*
+
+**Filtered data to only contain HWY 61 Sites**
+
+* Day Hill Fill
+* Day Hill Gami
+* Day Hill Gitchi
+* Day Hill South
+* Spilt Rock Rocky Top
+* Split Rock 2021
+* Split Rock 2021 NE Patch
+* Split Rock Crazy Bay
+* Split Rock Crazy East
+* Split Rock Exclosure
+* Split Rock Jon
+* Split Rock Merrill 61
+* Split Rock Pine
+* Split Rock South
+
+
+
+<br>
+
+```{r set up, message=FALSE, warning=FALSE, include=FALSE}
+
+# load packages
+
+library(crosstalk)
+library(ggsci)
+library(kableExtra)
+library(plotly)
+library(scales)
+library(tidyverse)
+
+
+# read in data, round numbers to whole numbers
+overstory_data_raw <- read_csv("data/overstory.csv") %>%
+  mutate(ave_basal_area_whole = round(ave_basal_area, 0)) %>%
+  group_by(site_name) %>%
+  mutate(site_name = fct(rev(site_name)))
+  
+## remove blanks
+overstory_data <- read_csv("data/overstory.csv") %>%
+  mutate(ave_basal_area_whole = round(ave_basal_area, 0)) %>%
+  group_by(site_name) %>%
+  mutate(site_name = fct(rev(site_name))) %>%
+  filter(!species_trees %in% "(blank)")
+
+# update species list according to notes supplied by Laura Slavsky; removal of Howard Gnesen
+overstory_data_updated<- overstory_data %>%
+  mutate(updated_species = case_when(
+    species_trees %in% c("BO", "RO", "SWO") ~ "Oaks",
+    species_trees %in% c("RM", "SM", "BF", "BA", "WA", "PB") ~ "Non-planted",
+    species_trees %in% c("QA", "BT", "BP") ~ "Aspen",
+    TRUE ~ species_trees)) %>%
+  filter(site_name !="Howard Gnesen")
+
+
+hwy61_overstory <- overstory_data_updated %>%
+  filter(site_name %in% c(
+  "Day Hill Fill",
+  "Day Hill Gami",
+  "Day Hill Gitchi",
+  "Day Hill South",
+  "Spilt Rock Rocky Top",
+  "Split Rock 2021",
+  "Split Rock 2021 NE Patch",
+  "Split Rock Crazy Bay",
+  "Split Rock Crazy East",
+  "Split Rock Exclosure",
+  "Split Rock Jon",
+  "Split Rock Merrill 61",
+  "Split Rock Pine",
+  "Split Rock South"
+))
+
+```
+
+```{r grouped  by species, echo=FALSE, message=FALSE, warning=FALSE}
+
+grouped_species <- hwy61_overstory %>%
+  group_by(updated_species)%>%
+  summarise(mean_basal_area = mean(ave_basal_area_whole))
+
+grouped_species_chart  <- 
+  ggplot(data = grouped_species, aes(x = updated_species, y = mean_basal_area)) +
+  geom_bar(stat = "identity", fill = "purple") +
+  labs(
+    title = "Mean Basal Area by Species across all HWY 61 sites",
+    x = "",
+    y = "Basal Area") +
+  scale_x_discrete(limits = rev(grouped_species$updated_species)) +
+  coord_flip() +
+  theme_bw()
+
+grouped_species_chart
+```
+
+<br>
+
+## Overstory basal area for HWY 61 Sites
+
+```{r clickable species by site, echo=FALSE, message=FALSE, warning=FALSE}
+
+# set up key for crosstalk
+
+sd_overstory_data <- highlight_key(hwy61_overstory)
+
+
+
+basal_area_chart <- 
+  ggplot(sd_overstory_data, aes(x = updated_species,
+                                 y = ave_basal_area_whole)) +
+  geom_point(size = 3,
+             colour = "#4c0185") +
+  labs(
+    title = "Average Basal Area per Species",
+    x = "",
+    y = "Basal Area") +
+  scale_y_continuous(labels = comma) +
+  theme_bw()
+
+bscols(widths = c(3, 10),
+       filter_select("BP", 
+                     "Select site", 
+                     sd_overstory_data, 
+                     ~ site_name,
+                     multiple = FALSE),
+       ggplotly(basal_area_chart,
+                tooltip = FALSE,
+                width = 815)
+)
+
+
+```
+
+<br>
+
+## Looking across all of the HWY 61 sites
+
+<br>
+
+```{r all sites, echo=FALSE, message=FALSE, warning=FALSE, fig.height=12, fig.width=9}
+plot <-
+  ggplot(hwy61_overstory, aes(fill = updated_species, y = ave_basal_area_whole, x = site_name)) +
+  geom_bar(position = "stack", stat = "identity") +
+  coord_flip() +
+  labs(
+    title = "Basal area per species by site",
+    subtitle = "",
+    caption = ".",
+    x = "",
+    y = "Basal Area, whatver that is :)",
+    fill = "Status")+
+  scale_x_discrete(limits=rev) +
+  scale_y_continuous(label=comma) + 
+  theme_bw() + 
+  scale_fill_manual(values = c(
+                              "#70504d", 
+                              "#325ea8", 
+                              "#0b4222",
+                              "#6A3D9A", 
+                              "#258a47", 
+                              "#ab520e", 
+                              "black",
+                              "skyblue2", 
+                              "#FB9A99", # lt pink
+                              "red",
+                              "#CAB2D6", # lt purple
+                              "#FDBF6F", # lt orange
+                              "gray70", 
+                              "khaki2",
+                              "maroon", 
+                              "orchid1", 
+                              "limegreen", 
+                              "#ebf06e"))+
+  theme(plot.caption = element_text(hjust = 0, face= "italic"), #Default is hjust=1
+        plot.title.position = "plot", #NEW parameter. Apply for subtitle too.
+        plot.caption.position =  "plot") 
+
+#plot
+
+ggplotly(plot)
+
+```
+
+<br>
+
+## Pivoted and cleaned data for HWY 61 Sites
+
+<br>
+
+```{r data table, echo=FALSE, message=FALSE, warning=FALSE}
+
+kable(hwy61_overstory,
+      format.args = list(big.mark = ",")) %>%
+  kable_styling(
+    font_size = 12,
+    bootstrap_options = c("striped", "hover", "condensed")
+  ) 
+```

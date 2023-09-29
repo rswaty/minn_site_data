@@ -6,6 +6,10 @@ navbar:
     href: overstory.html
   - text: Understory
     href: understory.html
+  - text: Overstory Hwy61 Sites
+    href: hwy61_overstory.html
+  - text: Understory Hwy61 Sites
+    href: hwy61_understory.html   
 
     
 output_dir: '.'
